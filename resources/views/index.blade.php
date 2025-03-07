@@ -8,9 +8,9 @@
             <img src="{{ asset('img/hero-bg.jpg') }}" alt="" data-aos="fade-in" class="">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <h2>Alex Smith</h2>
+                <h2>Kevin Winarko</h2>
                 <p>I'm <span class="typed"
-                        data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span
+                        data-typed-items="Web Developer, Freelancer">Web Developer</span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             </div>
@@ -23,9 +23,9 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>About</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>
+                    Experienced Programmer with years of experience in Programming and background in Backend Testing. Able to quickly learn and adapt with new things , quickly resolve problems and bugs, motivated to learn, grow and excel in programming.
+                </p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -35,47 +35,50 @@
                         <img src="{{ asset('img/my-profile-img.jpg') }}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 content">
-                        <h2>UI/UX Designer &amp; Web Developer.</h2>
-                        <p class="fst-italic py-3">
+                        <h2>Web Developer</h2>
+                        {{-- <p class="fst-italic py-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore
                             magna aliqua.
-                        </p>
+                        </p> --}}
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                            1995</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                    {{-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
+                                            1995</span></li> --}}
+                                    {{-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
                                         <span>www.example.com</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                            7890</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                            USA</span></li>
+                                            7890</span></li> --}}
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> 
+                                        <span>
+                                            Pematangsiantar, Indonesia
+                                        </span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                        <span>Bachelor of Computer Science</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span>kevin.winarko@outlook.com</span>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
-                                        <span>Master</span>
-                                    </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>email@example.com</span>
-                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
                                         <span>Available</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="py-3">
+                        {{-- <p class="py-3">
                             Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
                             adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
                             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
                             itaque neque.
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
 
@@ -83,7 +86,7 @@
 
         </section><!-- /About Section -->
 
-        <!-- Stats Section -->
+        {{-- <!-- Stats Section -->
         <section id="stats" class="stats section">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -130,7 +133,7 @@
 
             </div>
 
-        </section><!-- /Stats Section -->
+        </section><!-- /Stats Section --> --}}  
 
         <!-- Skills Section -->
         <section id="skills" class="skills section light-background">
