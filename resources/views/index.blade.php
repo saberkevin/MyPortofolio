@@ -49,8 +49,7 @@
                                     {{-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
                                         <span>www.example.com</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                            7890</span></li> --}}
+                                    --}}
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> 
                                         <span>
                                             Pematangsiantar, Indonesia
@@ -62,11 +61,15 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
                                         <span>kevin.winarko@outlook.com</span>
                                     </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> 
+                                        <span>
+                                            +62878-8360-9092
+                                    </span></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>27</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
                                         <span>Available</span>
                                     </li>
@@ -141,7 +144,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Skills</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>30% is Beginner, 70% is Intermediate, 100% is Advanced</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -159,17 +162,17 @@
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                            <span class="skill"><span>CSS &amp; Javascript</span> <i class="val">70%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                            <span class="skill"><span>Databases &amp; SQL</span> <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
@@ -179,25 +182,25 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+                            <span class="skill"><span>PHP/Laravel</span> <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
+                            <span class="skill"><span>Livewire/Git</span> <i class="val">70</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+                            <span class="skill"><span>Java/ActiveMQ</span> <i class="val">30%</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div><!-- End Skills Item -->
@@ -216,9 +219,9 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -226,7 +229,7 @@
                 <div class="row">
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Sumary</h3>
+                        <h3 class="resume-title">Summary</h3>
 
                         <div class="resume-item pb-0">
                             <h4>Brandon Johnson</h4>
@@ -306,9 +309,9 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -514,7 +517,7 @@
         </section><!-- /Portfolio Section -->
 
         <!-- Services Section -->
-        <section id="services" class="services section">
+        {{-- <section id="services" class="services section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
@@ -593,10 +596,10 @@
 
             </div>
 
-        </section><!-- /Services Section -->
+        </section><!-- /Services Section --> --}}
 
         <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section light-background">
+        {{-- <section id="testimonials" class="testimonials section light-background">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
@@ -720,7 +723,7 @@
 
             </div>
 
-        </section><!-- /Testimonials Section -->
+        </section><!-- /Testimonials Section --> --}}
 
         <!-- Contact Section -->
         <section id="contact" class="contact section">
@@ -728,7 +731,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -742,28 +745,28 @@
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3>Address</h3>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>Sutoyo 48, Dwikora, Siantar Barat, Pematangsiantar, Indonesia 21118</p>
                                 </div>
                             </div><!-- End Info Item -->
 
                             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                                 <i class="bi bi-telephone flex-shrink-0"></i>
                                 <div>
-                                    <h3>Call Us</h3>
-                                    <p>+1 5589 55488 55</p>
+                                    <h3>Phone</h3>
+                                    <p>+62 878-8360-9092</p>
                                 </div>
-                            </div><!-- End Info Item -->
+                            </div><!-- End Info Item --> 
 
                             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
-                                    <h3>Email Us</h3>
-                                    <p>info@example.com</p>
+                                    <h3>Email</h3>
+                                    <p>kevin.winarko@outlook.com</p>
                                 </div>
                             </div><!-- End Info Item -->
 
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.503272770219!2d99.06432847391038!3d2.9577595970184345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031845d2022b981%3A0x91d937041d41d715!2sToko%20Sharkin!5e0!3m2!1sid!2sid!4v1741330314404!5m2!1sid!2sid"
                                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen=""
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
