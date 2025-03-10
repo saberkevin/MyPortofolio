@@ -773,8 +773,9 @@
                     </div>
 
                     <div class="col-lg-7">
-                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                        <form action="{{ route('contact-us') }}" method="post" class="php-email-form" data-aos="fade-up"
                             data-aos-delay="200">
+                            @csrf
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
@@ -804,7 +805,6 @@
                                     <div class="loading">Loading</div>
                                     <div class="error-message"></div>
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
-
                                     <button type="submit">Send Message</button>
                                 </div>
 
