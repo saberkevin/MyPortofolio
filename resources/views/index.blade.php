@@ -32,7 +32,7 @@
 
                 <div class="row gy-4 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ asset('img/my-profile-img.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/my-profile-avatar.jpg') }}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 content">
                         <h2>Web Developer</h2>
@@ -144,7 +144,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Skills</h2>
-                <p>30% is Beginner, 70% is Intermediate, 100% is Advanced</p>
+                {{-- <p>30% is Beginner, 70% is Intermediate, 100% is Advanced</p> --}}
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -154,7 +154,7 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                            <span class="skill"><span>HTML</span> <i class="val">Advanced</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -162,7 +162,7 @@
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>CSS &amp; Javascript</span> <i class="val">70%</i></span>
+                            <span class="skill"><span>CSS &amp; Javascript</span> <i class="val">Intermediate</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -170,7 +170,7 @@
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>Databases &amp; SQL</span> <i class="val">100%</i></span>
+                            <span class="skill"><span>Databases &amp; SQL</span> <i class="val">Advanced</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -182,7 +182,7 @@
                     <div class="col-lg-6">
 
                         <div class="progress">
-                            <span class="skill"><span>PHP/Laravel</span> <i class="val">100%</i></span>
+                            <span class="skill"><span>PHP/Laravel</span> <i class="val">Advanced</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -190,7 +190,7 @@
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>Livewire/Git</span> <i class="val">70</i></span>
+                            <span class="skill"><span>Livewire/Git</span> <i class="val">Intermediate</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -198,7 +198,7 @@
                         </div><!-- End Skills Item -->
 
                         <div class="progress">
-                            <span class="skill"><span>Java/ActiveMQ</span> <i class="val">30%</i></span>
+                            <span class="skill"><span>Java</span> <i class="val">Beginner</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -229,7 +229,7 @@
                 <div class="row">
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Summary</h3>
+                        {{-- <h3 class="resume-title">Summary</h3>
 
                         <div class="resume-item pb-0">
                             <h4>Brandon Johnson</h4>
@@ -241,24 +241,26 @@
                                 <li>(123) 456-7891</li>
                                 <li>alice.barkley@example.com</li>
                             </ul>
-                        </div><!-- Edn Resume Item -->
+                        </div><!-- Edn Resume Item --> --}}
 
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            <h4>Bachelor's degree - Information Technology</h4>
+                            <h5>2016-2020</h5>
+                            <p><em>Universitas Bina Nusantara, DKI Jakarta, ID</em></p>
+                            <p>
+                                Courses: C, C++, MSSQL, OPENGL, Java, C#, Laravel, HTML, CSS, JS, PHP 
+                                Project: Blue Laundry(Java), dIVForum (Laravel)
+                            </p>
                         </div><!-- Edn Resume Item -->
 
                         <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-                                ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-                                consequatur neque etlon sader mart dila</p>
+                            <h4>High School - Regular Science</h4>
+                            <h5>2013 - 2016</h5>
+                            <p><em>SMA Kristen Kalam Kudus, Pematangsiantar, ID</em></p>
+                            <p>
+                                Courses: C++, Pascal, Game Maker
+                            </p>
                         </div><!-- Edn Resume Item -->
 
                     </div>
@@ -266,35 +268,86 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
-                            <h4>Senior graphic design specialist</h4>
-                            <h5>2019 - Present</h5>
-                            <p><em>Experion, New York, NY </em></p>
+                            <h4>IT Staff</h4>
+                            <h5>Mar 2025 - Present</h5>
+                            <p><em>Sucofindo, DKI Jakarta, ID- Onsite </em></p>
                             <ul>
-                                <li>Lead in the design, development, and implementation of the graphic, layout, and
-                                    production communication materials</li>
-                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all
-                                    aspects of the project. </li>
-                                <li>Supervise the assessment of all graphic materials in order to ensure quality and
-                                    accuracy of the design</li>
-                                <li>Oversee the efficient use of production project budgets ranging from $2,000 -
-                                    $25,000</li>
+                                <li>Tools: Laravel, MySQL, Git</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
                         <div class="resume-item">
-                            <h4>Graphic design specialist</h4>
-                            <h5>2017 - 2018</h5>
-                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                            <h4>Software Engineer</h4>
+                            <h5>Jan 2023 - Feb 2025</h5>
+                            <p><em>Suitmedia Digital Agency, DKI Jakarta, ID - Remote</em></p>
                             <ul>
-                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations,
-                                    and advertisements).</li>
-                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                <li>Created 4+ design presentations and proposals a month for clients and account
-                                    managers</li>
+                                <li>Tools: Laravel, MySQL, PostgreSQL, Livewire, Postman, Git, ActiveMQ</li>
+                                <li>Integrate frontend with backend according to requirement given by system analyst (From wireframe or analyzed requirements)</li>
+                                <li>Build CMS Page using frontend design template with its integration to backend</li>
+                                <li>Create Scheduler for cases that need automation and email/database notification using Laravel framework</li>
+                                <li>Maintenance and bugfixing while on development and after project live</li>
+                                <li>Managed up to 3 projects (IDX, SIER, Supermath)</li>
+                                <li>Develop API for project that is not Monolith using Laravel</li>
+                                <li>Actively communicate with system analyst, project manager and other vendor IT representative for requirement and problem that arise when on development and after project live</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
-
+                        <div class="resume-item">
+                            <h4>Programmer</h4>
+                            <h5>Oct 2021 - Oct 2022</h5>
+                            <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Hybrid</em></p>
+                            <ul>
+                                <li>Tools: Postman, Salesforce CRM, 3Dolphin CRM, MVEL, Java, Apex Programming, SOQL</li>
+                                <li>Develop API for other vendor to Access Salesforce CRM</li>
+                                <li>Develop controller, unit test and Visualforce page (A frontend page for user to interact)</li>
+                                <li>Query with SOQL to trace cases or for development, creating Object (like Table)</li>
+                                <li>Create Scheduler for cases that need automation</li>
+                                <li>Maintaning and bugfixing code that is related to Binus Whatsapp Chatbot</li>
+                                <li>Develop Chatbot on Whatsapp based on Binus Journey using dialog and process flow with MVEL</li>
+                                <li>Using Postman to test and run API from internal development and vendor API</li>
+                                <li>Actively contact with System Analyst and other programmer to fix new found bug and problem that arise while in development or day to day case</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Associate Software Development Engineer in Test</h4>
+                            <h5>Jun 2020 - Jun 2021</h5>
+                            <p><em>Dana Indonesia, DKI Jakarta, ID - Hybrid</em></p>
+                            <ul>
+                                <li>Tools: Java, ITest, YAML, TestNG, JUnit, Git</li>
+                                <li>Create Test Analysis, Test Script, Documentation and Testing multiple project for one sprint that mainly last one month with testing time usually one week</li>
+                                <li>Actively contact with developer and project manager to fix new found bug and problem that arise while in development</li>
+                                <li>Handling and maintaining regression for past Test Script that may failed with active continuous development, we strive to have more than 90% pass rate</li>
+                                <li>Check Log and handling On-Duty Cases on Online Environment when got assigned</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>DanaApprenTech - SDET BE</h4>
+                            <h5>Mar 2020 - Jun 2020</h5>
+                            <p><em>Dana Indonesia, DKI Jakarta, ID - Hybrid</em></p>
+                            <ul>
+                                <li>Tools: Java, Git, TestNG, JMeter</li>
+                                <li>Trained to became Backend SDET as fulltime employee</li>
+                                <li>Join Bootcamp alike that has test and homework for fulltime employee selection</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Programmer</h4>
+                            <h5>Mar 2018 - Feb 2020</h5>
+                            <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Onsite</em></p>
+                            <ul>
+                                <li>Tools: Codeigniter, MSSQL, Peoplesoft, OracleSQL, PHP, HTML, CSS, JS</li>
+                                <li>Develop Pages and maintaining website Binusmaya 5</li>
+                                <li>Develop Pages and maintaing Binus Campus Solution BCS</li>            
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Associate Member Developer</h4>
+                            <h5>Mar 2017 - Feb 2018</h5>
+                            <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Onsite</em></p>
+                            <ul>
+                                <li>Tools: Laravel, AngularJS 1, PostgreSQL, PHP, HTML, CSS, JS</li>
+                                <li>Develop Pages and maintaining website Binus School Bekasi and Puhua</li>          
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -320,10 +373,10 @@
 
                     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Product</li>
+                        {{-- <li data-filter=".filter-app">App</li> --}}
+                        {{-- <li data-filter=".filter-product">Product</li>
                         <li data-filter=".filter-branding">Branding</li>
-                        <li data-filter=".filter-books">Books</li>
+                        <li data-filter=".filter-books">Books</li> --}}
                     </ul><!-- End Portfolio Filters -->
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
@@ -343,7 +396,7 @@
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
                                 <img src="{{ asset('img/portfolio/product-1.jpg') }}" class="img-fluid" alt="">
                                 <div class="portfolio-info">
@@ -386,7 +439,7 @@
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item --> --}}
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <div class="portfolio-content h-100">
@@ -403,7 +456,7 @@
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
                                 <img src="{{ asset('img/portfolio/product-2.jpg') }}" class="img-fluid" alt="">
                                 <div class="portfolio-info">
@@ -446,7 +499,7 @@
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item --> --}}
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <div class="portfolio-content h-100">
@@ -463,7 +516,7 @@
                             </div>
                         </div><!-- End Portfolio Item -->
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
                                 <img src="{{ asset('img/portfolio/product-3.jpg') }}" class="img-fluid" alt="">
                                 <div class="portfolio-info">
@@ -506,7 +559,7 @@
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
-                        </div><!-- End Portfolio Item -->
+                        </div><!-- End Portfolio Item --> --}}
 
                     </div><!-- End Portfolio Container -->
 
