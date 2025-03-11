@@ -801,6 +801,8 @@
                                     <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                                 </div>
 
+                                {!! NoCaptcha::display() !!}
+
                                 <div class="col-md-12 text-center">
                                     <div class="loading">Loading</div>
                                     <div class="error-message"></div>
@@ -820,3 +822,7 @@
 
     </main>
 @endsection
+
+@push('scripts')
+    {!! NoCaptcha::renderJs() !!}
+@endpush

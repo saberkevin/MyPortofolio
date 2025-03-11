@@ -15,6 +15,14 @@ class HomeController extends Controller
     public function contactUs()
     {
         $request = request();
+
+        $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'message' => 'required|string',
+            'g-recaptcha-response' => 'required|captcha',
+        ]);
+
         $subject = $request->input('subject');
         $message = "Name: " . $request->input('name') . "\n";
         $message .= "Email: " . $request->input('email') . "\n";
