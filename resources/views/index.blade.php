@@ -1,4 +1,8 @@
 @extends('layouts.base')
+@push('styles')
+    <style>
+    </style>
+@endpush
 @section('content')
     <main class="main">
 
@@ -383,19 +387,124 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <div class="portfolio-content h-100">
-                                <img src="{{ asset('img/portfolio/app-1.jpg') }}" class="img-fluid" alt="">
+                                <img src="{{ asset('img/portfolio/rdis.jpg') }}" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>App 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('img/portfolio/app-1.jpg') }}" title="App 1"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                    <h4>IDX RDIS</h4>
+                                    <p>CMS Page used by user RDIS mainly for IDX events, monthly report, visits, etc</p>
+                                    <a href="{{ asset('img/portfolio/rdis.jpg') }}" title="IDX RDIS"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
                                 </div>
                             </div>
                         </div><!-- End Portfolio Item -->
-
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/sier.jpg') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Enterprise Governance, Risk and Compliance (EGRC) for PT. SIER</h4>
+                                    <p>a web used by PT.SIER user for Financial Risk Management</p>
+                                    <a href="{{ asset('img/portfolio/sier.jpg') }}" title="EGRC"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/binus.jpg') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Binus Whatsapp Chatbot</h4>
+                                    <p>a Whatsapp Chatbot that is used by student or alumni of Binus for communication related to Student Service Center</p>
+                                    <a href="{{ asset('img/portfolio/binus.jpg') }}" title="Binus Whatsapp Chatbot"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/salesforce.jpg') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Binus Salesforce CRM</h4>
+                                    <p>Salesforce SaaS that is used by Binus for managing data and implementing easy page and API</p>
+                                    <a href="{{ asset('img/portfolio/salesforce.jpg') }}" title="Binus Salesforce CRM"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/bcs.jpg') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Binus Campus Solution</h4>
+                                    <p>Oracle SaaS built with Peoplesoft that is used by student and staff to Manage student related data with OracleSQL as database engine</p>
+                                    <a href="{{ asset('img/portfolio/bcs.jpg') }}" title="Binus Campus Solution"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/bm5.png') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Binusmaya 5</h4>
+                                    <p>a web that is used mainly by Binus student for day to day activities.</p>
+                                    <a href="{{ asset('img/portfolio/bm5.png') }}" title="Binusmaya 5"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/binus_school_bekasi.jpg') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Binus School Bekasi</h4>
+                                    <p>a CMS page that is used by teacher to manage data related to Binus School Bekasi student.</p>
+                                    <a href="{{ asset('img/portfolio/binus_school_bekasi.jpg') }}" title="Binus School Bekasi"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/puhua.png') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Puhua School</h4>
+                                    <p>a CMS page that is used by teacher to manage data related to Puhua School student.</p>
+                                    <a href="{{ asset('img/portfolio/puhua.png') }}" title="Puhua School"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
                         {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
                                 <img src="{{ asset('img/portfolio/product-1.jpg') }}" class="img-fluid" alt="">
@@ -441,21 +550,6 @@
                             </div>
                         </div><!-- End Portfolio Item --> --}}
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('img/portfolio/app-2.jpg') }}" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>App 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('img/portfolio/app-2.jpg') }}" title="App 2"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
                         {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
                                 <img src="{{ asset('img/portfolio/product-2.jpg') }}" class="img-fluid" alt="">
@@ -500,21 +594,6 @@
                                 </div>
                             </div>
                         </div><!-- End Portfolio Item --> --}}
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <div class="portfolio-content h-100">
-                                <img src="{{ asset('img/portfolio/app-3.jpg') }}" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>App 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="{{ asset('img/portfolio/app-3.jpg') }}" title="App 3"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
 
                         {{-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
                             <div class="portfolio-content h-100">
