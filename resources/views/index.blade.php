@@ -254,7 +254,9 @@
                             <p><em>Universitas Bina Nusantara, DKI Jakarta, ID</em></p>
                             <p>
                                 Courses: C, C++, MSSQL, OPENGL, Java, C#, Laravel, HTML, CSS, JS, PHP 
-                                Project: Blue Laundry(Java), dIVForum (Laravel)
+                            </p>
+                            <p>
+                                Projects: Blue Laundry(Java), dIVForum (Laravel)
                             </p>
                         </div><!-- Edn Resume Item -->
 
@@ -286,11 +288,11 @@
                             <p><em>Suitmedia Digital Agency, DKI Jakarta, ID - Remote</em></p>
                             <ul>
                                 <li>Tools: Laravel, MySQL, PostgreSQL, Livewire, Postman, Git, ActiveMQ</li>
+                                <li>Projects: IDX RDIS, e-GRC SIER, Supermath</li>
                                 <li>Integrate frontend with backend according to requirement given by system analyst (From wireframe or analyzed requirements)</li>
                                 <li>Build CMS Page using frontend design template with its integration to backend</li>
                                 <li>Create Scheduler for cases that need automation and email/database notification using Laravel framework</li>
                                 <li>Maintenance and bugfixing while on development and after project live</li>
-                                <li>Managed up to 3 projects (IDX, SIER, Supermath)</li>
                                 <li>Develop API for project that is not Monolith using Laravel</li>
                                 <li>Actively communicate with system analyst, project manager and other vendor IT representative for requirement and problem that arise when on development and after project live</li>
                             </ul>
@@ -301,6 +303,7 @@
                             <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Hybrid</em></p>
                             <ul>
                                 <li>Tools: Postman, Salesforce CRM, 3Dolphin CRM, MVEL, Java, Apex Programming, SOQL</li>
+                                <li>Projects: Binus Salesforce, Binus Whatsapp Chatbot</li>
                                 <li>Develop API for other vendor to Access Salesforce CRM</li>
                                 <li>Develop controller, unit test and Visualforce page (A frontend page for user to interact)</li>
                                 <li>Query with SOQL to trace cases or for development, creating Object (like Table)</li>
@@ -339,8 +342,7 @@
                             <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Onsite</em></p>
                             <ul>
                                 <li>Tools: Codeigniter, MSSQL, Peoplesoft, OracleSQL, PHP, HTML, CSS, JS</li>
-                                <li>Develop Pages and maintaining website Binusmaya 5</li>
-                                <li>Develop Pages and maintaing Binus Campus Solution BCS</li>            
+                                <li>Projects: Binusmaya 5, Binus Campus Solution (BCS)</li>        
                             </ul>
                         </div>
                         <div class="resume-item">
@@ -349,7 +351,7 @@
                             <p><em>Bina Nusantara IT Division, DKI Jakarta, ID - Onsite</em></p>
                             <ul>
                                 <li>Tools: Laravel, AngularJS 1, PostgreSQL, PHP, HTML, CSS, JS</li>
-                                <li>Develop Pages and maintaining website Binus School Bekasi and Puhua</li>          
+                                <li>Projects: Binus School Bekasi, Puhua</li>          
                             </ul>
                         </div>
                     </div>
