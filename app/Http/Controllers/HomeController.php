@@ -12,6 +12,9 @@ class HomeController extends Controller
         return view('index');
     }
 
+    /**
+     * @phpmd:disable StaticAccess
+     */
     public function contactUs()
     {
         $request = request();
@@ -27,6 +30,7 @@ class HomeController extends Controller
         $message = "Name: " . $request->input('name') . "\n";
         $message .= "Email: " . $request->input('email') . "\n";
         $message .= "Message: " . $request->input('message');
+
 
         Mail::raw($message, function (Message $msg) use ($subject) {
             $msg->to('kevin.winarko@outlook.com')->subject($subject);
