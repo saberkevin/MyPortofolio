@@ -13,7 +13,7 @@ class HomeController extends Controller
     }
 
     /**
-     * @SuppressWarnings(PHPMD.StaticAccess)
+     * @SuppressWarnings("StaticAccess")
      */
     public function contactUs()
     {
