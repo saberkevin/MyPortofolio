@@ -13,7 +13,7 @@ class HomeController extends Controller
     }
 
     /**
-     * @phpmd:disable StaticAccess
+     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     public function contactUs()
     {
