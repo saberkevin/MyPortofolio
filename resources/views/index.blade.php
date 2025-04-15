@@ -9,7 +9,7 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ asset('img/hero-bg.jpg') }}" alt="" data-aos="fade-in" class="">
+            <img src="{{ asset('img/hero-background.jpg') }}" alt="" data-aos="fade-in" class="">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Kevin Winarko</h2>
