@@ -26,3 +26,18 @@ jobs:
         run: vendor/bin/phpstan analyse
       - name: Test PhpMD
         run: vendor/bin/phpmd app/ text cleancode,codesize,controversial,design,naming,unusedcode
+      - name: Deploy using SSH
+        uses: appleboy/ssh-action@v1.1.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          # key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd ${{ secrets.APP_PATH }}
+            git pull origin main
+            composer install --no-dev
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
