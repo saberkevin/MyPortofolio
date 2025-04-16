@@ -20,6 +20,8 @@ class HomeController extends Controller
     {
         $request = request();
 
+        dd($request->all());
+
         $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
             'secret' => config('captcha.secret'),
             'response' => $request->input('g-recaptcha-response'),
