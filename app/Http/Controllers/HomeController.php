@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Mail\Message;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -28,8 +27,6 @@ class HomeController extends Controller
             'message' => 'required|string',
             'g-recaptcha-response' => 'required|captcha',
         ]);
-
-
 
         $subject = $request->input('subject');
         $message = "Name: " . $request->input('name') . "\n";
