@@ -26,7 +26,7 @@ class HomeController extends Controller
             'remoteip' => $request->ip(),
         ]);
         
-        dd($response->json());
+        logger()->info('Google reCAPTCHA validation response', $response->json());
 
         $request->validate([
             'name' => 'required|string',
