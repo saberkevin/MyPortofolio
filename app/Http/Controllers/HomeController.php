@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Mail\Message;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
