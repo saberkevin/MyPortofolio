@@ -906,7 +906,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7">
+                    {{-- <div class="col-lg-7">
                         <form action="{{ route('contact-us') }}" method="post" class="php-email-form" data-aos="fade-up"
                             data-aos-delay="200">
                             @csrf
@@ -946,7 +946,8 @@
 
                             </div>
                         </form>
-                    </div><!-- End Contact Form -->
+                    </div> --}}
+                    <!-- End Contact Form -->
 
                 </div>
 
