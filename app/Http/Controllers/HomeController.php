@@ -18,8 +18,6 @@ class HomeController extends Controller
     public function contactUs()
     {
         $request = request();
-        
-        dd($request->all());
 
         $request->validate([
             'name' => 'required|string',
