@@ -17,21 +17,24 @@ class HomeController extends Controller
      */
     public function contactUs()
     {
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => config('captcha.secret'),
-            'response' => request()->input('g-recaptcha-response'),
-            'remoteip' => request()->ip(),
-        ]);
-
-        dd($response->json());
         $request = request();
 
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => config('captcha.secret'),
+            'response' => $request->input('g-recaptcha-response'),
+            'remoteip' => $request->ip(),
+        ]);
+        
+        logger()->info('Google reCAPTCHA response', $response->json());
+        
         $request->validate([
             'name' => 'required|string',
             'email' => 'required|email',
             'message' => 'required|string',
             'g-recaptcha-response' => 'required|captcha',
         ]);
+
+
 
         $subject = $request->input('subject');
         $message = "Name: " . $request->input('name') . "\n";
