@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Mail\Message;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -25,8 +26,8 @@ class HomeController extends Controller
             'remoteip' => $request->ip(),
         ]);
         
-        logger()->info('Google reCAPTCHA response', $response->json());
-        
+        dd($response->json());
+
         $request->validate([
             'name' => 'required|string',
             'email' => 'required|email',
