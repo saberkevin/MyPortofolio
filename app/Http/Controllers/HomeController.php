@@ -23,7 +23,7 @@ class HomeController extends Controller
             'name' => 'required|string',
             'email' => 'required|email',
             'message' => 'required|string',
-            'g-recaptcha-response' => 'required|captcha',
+            // 'g-recaptcha-response' => 'required|captcha',
         ]);
 
         $subject = $request->input('subject');
