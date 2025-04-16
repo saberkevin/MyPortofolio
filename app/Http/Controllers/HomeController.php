@@ -19,8 +19,6 @@ class HomeController extends Controller
     {
         $request = request();
 
-        dd($request->all());
-
         $request->validate([
             'name' => 'required|string',
             'email' => 'required|email',
