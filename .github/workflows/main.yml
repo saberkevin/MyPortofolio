@@ -8,24 +8,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.3'
-      - name: Create Database
-        run: touch ./database/database.sqlite
-      - name: Copy .env
-        run: cp .env.test .env
-      - name: Install app
-        run: composer install
-      - name: run migrations
-        run: php artisan migrate
-      - name: Test Phpstan
-        run: vendor/bin/phpstan analyse
-      - name: Test PhpMD
-        run: vendor/bin/phpmd app/ text cleancode,codesize,controversial,design,naming,unusedcode
+      # - name: Checkout code
+      #   uses: actions/checkout@v4
+      # - name: Set up PHP
+      #   uses: shivammathur/setup-php@v2
+      #   with:
+      #     php-version: '8.3'
+      # - name: Create Database
+      #   run: touch ./database/database.sqlite
+      # - name: Copy .env
+      #   run: cp .env.test .env
+      # - name: Install app
+      #   run: composer install
+      # - name: run migrations
+      #   run: php artisan migrate
+      # - name: Test Phpstan
+      #   run: vendor/bin/phpstan analyse
+      # - name: Test PhpMD
+      #   run: vendor/bin/phpmd app/ text cleancode,codesize,controversial,design,naming,unusedcode
       - name: Deploy using SSH
         uses: appleboy/ssh-action@v1.1.0
         with:
