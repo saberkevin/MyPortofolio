@@ -279,6 +279,7 @@
                             <p><em>Sucofindo, DKI Jakarta, ID- Onsite </em></p>
                             <ul>
                                 <li>Tools: Laravel, MySQL, Git</li>
+                                <li>Projects: PSR Online V2</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
@@ -386,6 +387,21 @@
                     </ul><!-- End Portfolio Filters -->
 
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-content h-100">
+                                <img src="{{ asset('img/portfolio/psrv2.png') }}" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>PSR Online V2</h4>
+                                    <p>a web mainly used by planter to make a proposal for 'Peremajaan Sawit Rakyat' fund from 'Badan Pengelola Dana Perkebunan'</p>
+                                    <a href="{{ asset('img/portfolio/psrv2.png') }}" title="PSR Online V2"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"
+                                        style="margin-left:30px;"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    {{-- <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a> --}}
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
                             <div class="portfolio-content h-100">
