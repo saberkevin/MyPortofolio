@@ -932,7 +932,7 @@
 
                                 <div class="col-md-12">
                                     <label for="subject-field" class="pb-2">Budget (in USD)</label>
-                                    <select class="form-control" name="Budget" id="budget-field"
+                                    <select class="form-control" name="budget" id="budget-field"
                                         required="">
                                         <option value="250">Up to 250</option>
                                         <option value="500">250-500</option>
