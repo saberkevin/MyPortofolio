@@ -667,14 +667,12 @@
         </section><!-- /Portfolio Section -->
 
         <!-- Services Section -->
-        {{-- <section id="services" class="services section">
+        <section id="services" class="services section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Services</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>I mainly do backend as a Web Developer, for frontend, i usually use themes/template. I have experience on setup cloud hosting too if needed.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -684,10 +682,8 @@
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a>
-                            </h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
+                            <h4 class="title">Backend Development</h4>
+                            <p class="description">Setup Databases, Using Laravel to develop backend for web application from requirements.</p>
                         </div>
                     </div>
                     <!-- End Service Item -->
@@ -695,34 +691,28 @@
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a>
-                            </h4>
-                            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat tarad limino ata</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-                        <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut
-                                    perspiciatis</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur</p>
+                            <h4 class="title">Frontend Development</h4>
+                            <p class="description">For frontend, i mainly use themes/template like AdminLTE. i have little experience on Web Design, but i am open to custom frontend if needed.</p>
                         </div>
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
                         <div>
-                            <h4 class="title"><a href="service-details.html" class="stretched-link">Magni
-                                    Dolores</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum</p>
+                            <h4 class="title">Cloud Hosting & Deployment</h4>
+                            <p class="description">Launch and manage your website on reliable cloud infrastructure. I have little experience on Google Cloud and Cloudflare, and i am open too other platform too if needed.</p>
                         </div>
                     </div><!-- End Service Item -->
 
-                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                        <div>
+                            <h4 class="title">Maintenance & Support</h4>
+                            <p class="description">Bug fixes, content updates, minor page enhancement.</p>
+                        </div>
+                    </div><!-- End Service Item -->
+
+                    {{-- <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
                         <div>
                             <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a>
@@ -740,13 +730,13 @@
                             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
                                 tempore, cum soluta nobis est eligendi</p>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div><!-- End Service Item --> --}}
 
                 </div>
 
             </div>
 
-        </section><!-- /Services Section --> --}}
+        </section><!-- /Services Section -->
 
         <!-- Testimonials Section -->
         {{-- <section id="testimonials" class="testimonials section light-background">
@@ -941,13 +931,18 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <label for="subject-field" class="pb-2">Subject</label>
-                                    <input type="text" class="form-control" name="subject" id="subject-field"
+                                    <label for="subject-field" class="pb-2">Budget (in USD)</label>
+                                    <select class="form-control" name="Budget" id="budget-field"
                                         required="">
+                                        <option value="250">Up to 250</option>
+                                        <option value="500">250-500</option>
+                                        <option value="750">500-1000</option>
+                                        <option value="1000">More than 1000</option>
+                                    </select>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <label for="message-field" class="pb-2">Message</label>
+                                    <label for="message-field" class="pb-2">Message or project details overview</label>
                                     <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
                                 </div>
 

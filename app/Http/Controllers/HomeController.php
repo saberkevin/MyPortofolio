@@ -27,10 +27,11 @@ class HomeController extends Controller
             'g-recaptcha-response' => 'required|captcha',
         ]);
 
-        $subject = $request->input('subject');
+        $subject = 'New Project Opportunity';
         $message = "Name: " . $request->input('name') . "\n";
         $message .= "Email: " . $request->input('email') . "\n";
-        $message .= "Message: " . $request->input('message');
+        $message = "Budget: " . $request->input('budget') . "\n";
+        $message .= "Message: \n" . $request->input('message');
 
 
         Mail::raw($message, function (Message $msg) use ($subject) {
