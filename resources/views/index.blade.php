@@ -680,7 +680,7 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                        <div class="icon flex-shrink-0"><i class="bi bi-server"></i></div>
                         <div>
                             <h4 class="title">Backend Development</h4>
                             <p class="description">Setup Databases, Using Laravel to develop backend for web application from requirements.</p>
@@ -689,7 +689,7 @@
                     <!-- End Service Item -->
 
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                        <div class="icon flex-shrink-0"><i class="bi bi-layout-text-window"></i></div>
                         <div>
                             <h4 class="title">Frontend Development</h4>
                             <p class="description">For frontend, i mainly use themes/template like AdminLTE. i have little experience on Web Design, but i am open to custom frontend if needed.</p>
@@ -697,7 +697,7 @@
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                        <div class="icon flex-shrink-0"><i class="bi-cloud-upload"></i></div>
                         <div>
                             <h4 class="title">Cloud Hosting & Deployment</h4>
                             <p class="description">Launch and manage your website on reliable cloud infrastructure. I have little experience on Google Cloud and Cloudflare, and i am open too other platform too if needed.</p>
@@ -705,7 +705,7 @@
                     </div><!-- End Service Item -->
 
                     <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                        <div class="icon flex-shrink-0"><i class="bi bi-tools"></i></div>
                         <div>
                             <h4 class="title">Maintenance & Support</h4>
                             <p class="description">Bug fixes, content updates, minor page enhancement.</p>
