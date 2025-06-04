@@ -30,7 +30,7 @@ class HomeController extends Controller
         $subject = 'New Project Opportunity';
         $message = "Name: " . $request->input('name') . "\n";
         $message .= "Email: " . $request->input('email') . "\n";
-        $message = "Budget: " . $request->input('budget') . "\n";
+        $message .= "Budget: " . $request->input('budget') . "\n";
         $message .= "Message: \n" . $request->input('message');
 
 
