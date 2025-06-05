@@ -700,7 +700,7 @@
                         <div class="icon flex-shrink-0"><i class="bi-cloud-upload"></i></div>
                         <div>
                             <h4 class="title">Cloud Hosting & Deployment</h4>
-                            <p class="description">Launch and manage your website on reliable cloud infrastructure. I have little experience on Google Cloud and Cloudflare, and i am open to other platform too if needed.</p>
+                            <p class="description">Launch and manage your website on reliable cloud infrastructure. I have experience on Google Cloud and Cloudflare, and i am open to other platform too if needed.</p>
                         </div>
                     </div><!-- End Service Item -->
 
