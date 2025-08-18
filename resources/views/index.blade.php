@@ -279,7 +279,6 @@
                             <p><em>Suitmedia Digital Agency, DKI Jakarta, ID - Remote</em></p>
                             <ul>
                                 <li>Tools: Laravel, MySQL, Livewire, Postman, Git</li>
-                                <li>Projects: TBA</li>
                             </ul>
                         </div>
                         <div class="resume-item">
