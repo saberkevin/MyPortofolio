@@ -278,7 +278,7 @@
                             <h5>July 2025 - Present</h5>
                             <p><em>Suitmedia Digital Agency, DKI Jakarta, ID - Remote</em></p>
                             <ul>
-                                <li>Tools: Laravel, MySQL, Livewire, Git, Postman</li>
+                                <li>Tools: Laravel, MySQL, Livewire, Postman, Git</li>
                             </ul>
                         </div>
                         <div class="resume-item">
