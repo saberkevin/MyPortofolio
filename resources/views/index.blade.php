@@ -274,12 +274,23 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
+                            <h4>Software Engineer</h4>
+                            <h5>July 2025 - Present</h5>
+                            <p><em>Suitmedia Digital Agency, DKI Jakarta, ID - Remote</em></p>
+                            <ul>
+                                <li>Tools: Laravel, MySQL, Livewire, Postman, Git</li>
+                                <li>Projects: TBA</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
                             <h4>IT Staff</h4>
-                            <h5>Mar 2025 - Present</h5>
+                            <h5>Mar 2025 - June 2025</h5>
                             <p><em>Sucofindo, DKI Jakarta, ID- Onsite </em></p>
                             <ul>
                                 <li>Tools: Laravel, MySQL, Git</li>
                                 <li>Projects: PSR Online V2</li>
+                                <li>Enhancement and bug fixing for PSR Online V2</li>
+                                <li>initiate development and frontend using laravel AdminLTE for New SCI Kemitraan</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
