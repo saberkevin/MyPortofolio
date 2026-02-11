@@ -903,7 +903,7 @@
                                 <i class="bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Phone</h3>
-                                    <p>+62 878-8360-9092</p>
+                                    <p>+62895-3513-74311</p>
                                 </div>
                             </div><!-- End Info Item --> 
 
