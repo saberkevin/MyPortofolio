@@ -67,7 +67,7 @@
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> 
                                         <span>
-                                            +62878-8360-9092
+                                            +62895-3513-74311
                                     </span></li>
                                 </ul>
                             </div>
